@@ -1,6 +1,6 @@
 import { join } from 'node:path';
-import { z } from '@cairul/plugin-kit';
-import { counts, list, option, selectors, value, executeRunner } from '@cairul/plugin-kit/runner';
+import { z } from '@cairul/pdk';
+import { counts, list, option, selectors, value, executeRunner } from '@cairul/pdk/runner';
 
 const nonnegative = z.number().int().nonnegative();
 const summary = z.object({

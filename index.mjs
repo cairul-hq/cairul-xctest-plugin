@@ -1,6 +1,6 @@
-import { testRunner } from '@cairul/plugin-kit/runner';
+import { testRunner } from '@cairul/pdk/runner';
 import adapter from './run.mjs';
-import { junit, testPlugin } from '@cairul/plugin-kit/reports';
+import { junit, testPlugin } from '@cairul/pdk/reports';
 
 const reports = testPlugin('xctest.passed', { junit });
 
